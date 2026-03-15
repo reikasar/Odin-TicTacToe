@@ -9,14 +9,21 @@
     </head>
     <body>
         <h1>Tic-Tac-Toe</h1>
-        <div id="gameboard"></div>
-        <div id="controls">
-            <input type="text" id="player1" placeholder="Player 1 Name">
-            <input type="text" id="player2" placeholder="Player 2 Name">
-            <button id="start-button">Start Game</button>
-            <button id="restart-button">Restart Game</button>
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
         </div>
-        <div id="message"></div>
-        <div id="result-display"></div>
+        <div class="winning-message" id="winningMessage"></div>
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+
+
         <script src="script.js"></script>
     </body>
